@@ -36,7 +36,7 @@ const velas = [
   { id: "vela-roma", name: "Vela Roma", category: "Velas", image: "/productos/Vela_Roma/9a.png" },
   { id: "vela-santorini", name: "Vela Santorini", category: "Velas", image: "/productos/Vela_Santorini/IMG_20250520_154527472.jpg" },
   { id: "vela-seul", name: "Vela Seúl", category: "Velas", image: "/productos/Vela_Se%C3%BAl/5a.png" },
-  { id: "vela-shanghai", name: "Vela Shanghái", category: "Velas", image: "/productos/Vela_Shangha%C3%AD/7a.png" },
+  { id: "vela-shanghai", name: "Vela Shanghái", category: "Velas", image: "/productos/Vela_Shangh%C3%A1i/7a.png" },
   { id: "vela-tenesse", name: "Vela Tenesse", category: "Velas", image: "/productos/Vela_Tenesse/26a.png" },
   { id: "vela-tenesse-ambar", name: "Vela Tenesse Ambar", category: "Velas", image: "/productos/Vela_Tenesse_Ambar/31a.png" },
   { id: "vela-tokio", name: "Vela Tokio", category: "Velas", image: "/productos/Vela_Tokio/IMG_20250520_154250812.jpg" },
@@ -59,8 +59,6 @@ const difusores = [
   { id: "difusor-rubi", name: "Difusor Rubí", category: "Difusores", image: "/productos/Difusor_Rubi/55d.png" },
   { id: "difusor-topacio", name: "Difusor Topacio", category: "Difusores", image: "/productos/Difusor_Topacio/56d.png" },
   { id: "difusor-turmalina", name: "Difusor Turmalina", category: "Difusores", image: "/productos/Difusor_Turmalina/67a.png" },
-  { id: "flores-difusoras", name: "Flores Difusoras", category: "Difusores", image: "/productos/Flores_Difusoras/70a.png" },
-  { id: "varillas-difusoras", name: "Varillas Difusoras", category: "Difusores", image: "/productos/Varillas_Difusoras/72a.png" },
 ]
 
 // Datos de productos - Carameleras
@@ -83,7 +81,7 @@ const combos = [
   { id: "combo-marfil", name: "Combo Marfil", category: "Combos", image: "/productos/Combo_Marfil/62a.png" },
   { id: "combo-onix", name: "Combo Onix", category: "Combos", image: "/productos/Combo_Onix/61a.png" },
   { id: "combo-pekin", name: "Combo Pekín", category: "Combos", image: "/productos/Combo_Pekin/56a.png" },
-  { id: "combo-shanghai", name: "Combo Shanghái", category: "Combos", image: "/productos/Combo_Shangha%C3%AD/54a.png" },
+  { id: "combo-shanghai", name: "Combo Shanghái", category: "Combos", image: "/productos/Combo_Shangh%C3%A1i/54a.png" },
   { id: "combo-turmalina", name: "Combo Turmalina", category: "Combos", image: "/productos/Combo_Turmalina/64a.png" },
 ]
 
@@ -101,6 +99,8 @@ const accesorios = [
   { id: "apagavelas", name: "Apagavelas", category: "Accesorios", image: "/productos/Apagavelas/80a.png" },
   { id: "bombones-aromaticos", name: "Bombones Aromáticos", category: "Accesorios", image: "/productos/Bombones_Arom%C3%A1ticos/12a.png" },
   { id: "colgantes", name: "Colgantes", category: "Accesorios", image: "/productos/Colgantes/IMG_20250529_154711292.jpg" },
+  { id: "flores-difusoras", name: "Flores Difusoras", category: "Accesorios", image: "/productos/Flores_Difusoras/70a.png" },
+  { id: "varillas-difusoras", name: "Varillas Difusoras", category: "Accesorios", image: "/productos/Varillas_Difusoras/72a.png" },
   { id: "jabon-corporal", name: "Jabón Corporal", category: "Jabones", image: "/productos/Jab%C3%B3n_Corporal/74a.png" },
   { id: "jabon-facial", name: "Jabón Facial", category: "Jabones", image: "/productos/Jab%C3%B3n_Facial/IMG_20250526_182905443.jpg" },
 ]

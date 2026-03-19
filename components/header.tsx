@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, X, ShoppingBag } from "lucide-react"
+import { Menu, X } from "lucide-react"
 
 const navLinks = [
   { href: "#colecciones", label: "Colecciones" },
@@ -45,11 +45,8 @@ export function Header() {
             ))}
           </div>
 
-          {/* Cart & Mobile Menu */}
+          {/* Mobile Menu */}
           <div className="flex items-center gap-4">
-            <button className="p-2 hover:bg-muted transition-colors" aria-label="Carrito">
-              <ShoppingBag className="h-5 w-5" />
-            </button>
             <button
               className="lg:hidden p-2 hover:bg-muted transition-colors"
               onClick={() => setIsOpen(!isOpen)}
